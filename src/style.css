@@ -1,0 +1,9 @@
+header {
+    background-image: url("/assets/images/header-background.jpg");
+    height: 200px;
+}
+
+#content {
+    background-image: url("/assets/images/grilled-skewers.jpg");
+    height: 600px;
+}
