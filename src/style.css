@@ -17,7 +17,8 @@
 }
 
 :root {
-    --color-transparent: rgba(0, 0, 0, 0.0);
+    --button-transparent-light-color: rgba(208, 198, 176, 0.5);
+    --button-transparent-dark-color: rgba(171, 153, 115, 0.5);
     --text-color: #1D1C1C;
     font-family: 'monserratthin', sans-serif;
 }
@@ -44,10 +45,19 @@ header > nav {
 }
 
 header > nav > button {
-    height: 2.5rem;
-    width: 5rem;
-    background-color: var(--color-transparent);
+    height: 3rem;
+    width: 8rem;
+    background-color: var(--button-transparent-light-color);
     color: var(--text-color);
+    font-weight: 700;
+    font-size: 1.5rem;
+    border: var(--text-color) solid 1px;
+    border-radius: 4px;
+}
+
+header > nav > button:active {
+    background-color: var(--button-transparent-dark-color);
+    border: var(--text-color) solid 2px;
 }
 
 #content {
