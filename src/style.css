@@ -1,6 +1,25 @@
+@font-face {
+    font-family: 'montserratthin';
+    src: url('/assets/fonts/montserrat-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratthin_italic';
+    src: url('/assets/fonts/montserrat-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('/assets/fonts/montserrat-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 :root {
     --color-transparent: rgba(0, 0, 0, 0.0);
     --text-color: #1D1C1C;
+    font-family: 'monserratthin', sans-serif;
 }
 
 header {
