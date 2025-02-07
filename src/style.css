@@ -17,10 +17,16 @@
 }
 
 :root {
+    --header-height: 150px;
     --button-transparent-light-color: rgba(208, 198, 176, 0.5);
     --button-transparent-dark-color: rgba(171, 153, 115, 0.5);
+    --border-color: #611511;
     --text-color: #1D1C1C;
     font-family: 'monserratthin', sans-serif;
+}
+
+body {
+    background-color: var(--text-color);
 }
 
 header {
@@ -29,7 +35,7 @@ header {
     left: 0;
     right: 0;
     background-image: url("/assets/images/header-background.jpg");
-    height: 150px;
+    height: var(--header-height);
 
 }
 
@@ -62,5 +68,13 @@ header > nav > button:active {
 
 #content {
     background-image: url("/assets/images/grilled-skewers.jpg");
-    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: var(--header-height);
+    bottom: 0;
+    left: 100px;
+    right: 100px;
+    border-left: var(--border-color) dotted 2px;
+    border-right: var(--border-color) dotted 2px;;
 }
