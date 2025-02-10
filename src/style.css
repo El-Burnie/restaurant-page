@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'montserratthin';
-    src: url('/assets/fonts/montserrat-italic-variablefont_wght-webfont.woff2') format('woff2'),
+    src: url('/assets/fonts/montserrat-variablefont_wght-webfont.woff2') format('woff2'),
          url('/assets/fonts/montserrat-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -22,7 +22,7 @@
     --button-transparent-dark-color: rgba(171, 153, 115, 0.5);
     --border-color: #611511;
     --text-color: #1D1C1C;
-    font-family: 'monserratthin', sans-serif;
+    font-family: 'montserratthin', sans-serif;
 }
 
 body {
@@ -49,6 +49,7 @@ header {
     flex-direction: column;
     align-items: center;
     min-width: 24rem;
+    background-color: var(--button-transparent-light-color);
 }
 
 #title > h1 {
@@ -58,7 +59,7 @@ header {
 
 #title > h2 {
     font-size: 1.25rem;
-    font-family: 'monserratthin_italic', sans-serif;
+    font-family: 'montserratthin_italic', sans-serif;
 }
 
 header > nav {
