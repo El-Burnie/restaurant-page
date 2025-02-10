@@ -30,22 +30,39 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     background-image: url("/assets/images/header-background.jpg");
     height: var(--header-height);
+    padding: 1rem;
+    color: var(--text-color);
+}
 
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 24rem;
+}
+
+#title > h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#title > h2 {
+    font-size: 1.25rem;
+    font-family: 'monserratthin_italic', sans-serif;
 }
 
 header > nav {
     display: flex;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding-bottom: 1rem;
-    padding-right: 1rem;
     gap: 1rem;
     justify-content: space-between;
 }
