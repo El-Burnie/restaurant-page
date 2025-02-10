@@ -42,6 +42,8 @@ header {
     height: var(--header-height);
     padding: 1rem;
     color: var(--text-color);
+    box-shadow: var(--text-color) 0 3px 3px;
+    z-index: 100;
 }
 
 #title {
@@ -94,5 +96,6 @@ header > nav > button:active {
     left: 100px;
     right: 100px;
     border-left: var(--border-color) dotted 2px;
-    border-right: var(--border-color) dotted 2px;;
+    border-right: var(--border-color) dotted 2px;
+    z-index: 50;
 }
