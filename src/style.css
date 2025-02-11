@@ -1,16 +1,34 @@
 @font-face {
-    font-family: 'montserratthin';
-    src: url('/assets/fonts/montserrat-variablefont_wght-webfont.woff2') format('woff2'),
-         url('/assets/fonts/montserrat-variablefont_wght-webfont.woff') format('woff');
+    font-family: 'montserrat-bold';
+    src: url('/assets/fonts/Montserrat-Bold.woff2') format('woff2'),
+         url('/assets/fonts/Montserrat-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
-    font-family: 'montserratthin_italic';
-    src: url('/assets/fonts/montserrat-italic-variablefont_wght-webfont.woff2') format('woff2'),
-         url('/assets/fonts/montserrat-italic-variablefont_wght-webfont.woff') format('woff');
+    font-family: 'montserrat-bold-italic';
+    src: url('/assets/fonts/Montserrat-BoldItalic.woff2') format('woff2'),
+         url('/assets/fonts/Montserrat-BoldItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserrat-medium';
+    src: url('/assets/fonts/Montserrat-Medium.woff2') format('woff2'),
+         url('/assets/fonts/Montserrat-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserrat-medium-italic';
+    src: url('/assets/fonts/Montserrat-MediumItalic.woff2') format('woff2'),
+         url('/assets/fonts/Montserrat-MediumItalic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -25,7 +43,7 @@
     --border-color-transparent: rgba(97, 21, 17, 0.75); 
     --border-color: rgba(97, 21, 17, 1);
     --text-color: #1D1C1C;
-    font-family: 'montserratthin', sans-serif;
+    font-family: 'montserrat-medium', sans-serif;
 }
 
 body {
@@ -60,6 +78,7 @@ header {
     align-items: center;
     min-width: 24rem;
     background-color: var(--button-transparent-light-color);
+    font-family: 'montserrat-bold', sans-serif;
 }
 
 #title > h1 {
@@ -69,7 +88,7 @@ header {
 
 #title > h2 {
     font-size: 1.25rem;
-    font-family: 'montserratthin_italic', sans-serif;
+    font-family: 'montserrat-medium-italic', sans-serif;
 }
 
 header > nav {
@@ -83,7 +102,7 @@ header > nav > button {
     width: 8rem;
     background-color: var(--button-transparent-light-color);
     color: var(--text-color);
-    font-weight: 700;
+    font-family: 'montserrat-bold-italic', sans-serif;
     font-size: 1.5rem;
     border: var(--text-color) solid 1px;
     border-radius: 4px;
